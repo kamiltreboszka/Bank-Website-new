@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<title>Kart kredytowe i debetowe AMBER Bank </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styl.css">
+		<link rel="stylesheet" href="css/styl-zwijanie.css">
+		<link rel="stylesheet" href="css/fontello.css">
+	</head>
+	
+<body>	
+	<div id="kontener">
+		<div id = "logo">
+			<a href="index.html" target="_self" >
+				<img src="css/img/logo.png"></br>
+			</a>
+			<p>Przyszłość bankowości</p>
+		</div>
+	
+		<div id="zakladka-stala">
+			<div class="link">
+				<a href="index.html" target="_self" ><i class="icon-home"></i><br></br>Strona bankowa</a>
+			</div>
+			<div class="link">
+				<a href="karty.html" target="_self" ><i class="icon-credit-card"></i><br></br>KARTY</a>
+			</div>
+			<div class="link">
+				<a href="oszczednosci.html"><i class="icon-money"></i><br></br>OSZCZĘDNOŚCI</a>
+			</div>
+			<div class="link">
+				<a href="konta.html" ><i class="icon-user"></i><br></br>KONTA</a>
+			</div>
+			<div class="link">
+				<a href="kredyt.html"><i class="icon-dollar"></i><br></br>KREDYTY</a>
+			</div>
+			<div class="link">
+				<a href="logowanie.html"><i class="icon-user-circle-o"></i><br></br>ZALOGUJ</a>
+			</div>
+		</div>	
+
+	<header>KARTY</header>
+	
+	<div class="kolumna ramka">
+		<button class="accordion">Karty kredytowe</button>
+			<div class="panel">
+				<div class="kolumnaramka lewa">
+					<img src="css/img/XD.png" width=350 height=260>
+						<h3>ALFA PLATINIUM</h3>
+						<ul style="font-size: 20px">
+							<li>250 zł obniżki</li>
+							<li>do 899 zł zwrotu za zakupy w sklepach partnerskich</li>
+							<li>O zł prowizji za karte przy braku transakcji bezgotówkowej w miesiącu</li>
+						</ul>
+					<button class="button" type="button" onclick="alert('To tylko wersja demo!')">ZAMÓW KARTE</button>
+				</div>
+						
+				<div class="kolumnaramka prawa">
+					<div class="przesuniecie">
+						<img src="css/img/lepsza.png" width=200 height=130 align="right" >
+						<h4>BLACK ALFA </h4>
+						<ul style="font-size: 14px">
+							<li>150 zł obniżki</li>
+							<li>do 499 zł zwrotu za zakupy w sklepach partnerskich</li>
+							<li>O zł prowizji za karte przy 5 transakcjach bezgotówkowych w miesiącu</li>
+						</ul>
+						<button class="button" type="button" onclick="alert('To tylko wersja demo!')">ZAMÓW KARTE</button>
+							</br></br></br></br>			
+						<img src="css/img/srednia.png" width=200 height=130 align="right">
+						<h4> STANDARD ALFA</h4>
+						<ul style="font-size: 14px">
+							<li>100 zł obniżki</li>
+							<li>możliwość korzystania z programu "Wygodne raty"</li>
+							<li>O zł prowizji za karte przy 10 transakcjach bezgotówkowych w miesiącu</li>
+						</ul>
+						<button class="button" type="button" onclick="alert('To tylko wersja demo!')">ZAMÓW KARTE</button>
+					</div>
+				</div>
+			</div>
+
+			<button class="accordion">Karty debetowe</button>
+				<div class="panel">
+					<div class="kolumnaramka lewa">
+					<img src="css/img/karta-debetowa.jpg" width=350 height=260>
+						<h3>ALFA CLASSIC</h3>
+						<ul style="font-size: 20px">
+							<li>możliwość rozliczenia w innej walucie</li>
+							<li>brak opłat za wydanie karty</li>
+							<li>O PLN prowizji za transakcje bezgotówkowe</li>
+						</ul>
+					<button class="button" type="button" onclick="alert('To tylko wersja demo!')">ZAMÓW KARTE</button>
+				</div>
+						
+				<div class="kolumnaramka prawa">
+					<div class="przesuniecie">
+						<img src="css/img/karta-debetowa3.jpg" width=200 height=130 align="right" >
+						<h4>VISA ALFA </h4>
+						<ul style="font-size: 14px">
+							<li>wszystkie zalety klasycznej karty</li>
+							<li>9.99zł za wydanie karty</li>
+						</ul>
+						<button class="button" type="button" onclick="alert('To tylko wersja demo!')">ZAMÓW KARTE</button>
+							</br></br></br></br>			
+						<img src="css/img/karta-debetowa2.jpg" width=200 height=130 align="right">
+						<h4> MASTERCARD ALFA</h4>
+						<ul style="font-size: 14px">
+							<li>0 PLN już przy jednej transakcji</li>
+							<li>możliwość korzystania z programu "Wygodne raty"</li>
+							<li>O PLN prowizji za wybrane bankomaty i wpłatomaty</li>
+						</ul>
+						<button class="button" type="button" onclick="alert('To tylko wersja demo!')">ZAMÓW KARTE</button>
+					</div>
+				</div>
+			</div>
+			
+			<button class="accordion">Karta przedpłacone</button>
+				<div class="panel">
+					<div class="kolumna ramka">
+						<img src="css/img/przedplacona.png" width=200 height=130 align="center" >
+						<h4> ALFA PREPAID VISA </h4>
+						<ul style="font-size: 14px">
+							<li>doskonała na prezent</li>
+							<li>opcja wielokrotnego zasilania środków</li>
+						</ul>
+					</div>
+				</div>
+	</div>
+	<div style="clear:both;"></div>
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+			var i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+			} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+			} 
+		});
+	}
+	</script>
+
+		<div id="stopka">
+			<span style="float:left">© 2020 Alfa Team Bank</span>
+			Marek Podraza | Mateusz Szymanowski | Mikołaj Zbanyszek | Kamil Tręboszka
+			<span style="float:right"><a href="wiecej_informacji.html">Więcej informacji</a></span>
+		</div>
+	</div>
+	</body>
+</html>

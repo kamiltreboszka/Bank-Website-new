@@ -1,0 +1,130 @@
+header{
+	margin-top:25px;
+	padding-top:15px;
+	text-align:center;
+	font-size:30px;
+}
+h3{
+	font: 30px 'Trebuchet MS';
+	font-style: italic;
+	text-align: center;
+}
+h4{
+	font: 16px 'Trebuchet MS';
+	font-style: italic;
+	padding-left: 50px;
+
+}
+.accordion {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: 0.5 solid silver;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+	background-color: silver;
+}
+
+.accordion:after {
+	content: '\002B';
+	color: grey;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+.kolumna {
+	float: center;
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 15px;
+}
+.kolumnaramka {
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.ramka {
+	float:center;
+}
+.lewa {
+	width: 35%;
+}
+.prawa {
+	width: 65%;
+	padding:30px;
+}
+.wiersz:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.srodkowanie{
+	text-align: center;
+	padding-top: 1.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.przesuniecie{
+	padding-top:40px;
+	padding-left:100px;
+	padding-right:10px;
+}
+.button{
+	position:relative;
+	left:30%;
+	border-radius:10px;
+	padding: 20px 16px;
+	cursor: pointer;
+}
+.button_konta{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid silver;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	background-color: white;
+	cursor: pointer;
+}
+.button_konta:hover{
+	border: 2px solid gold;
+	background:silver;
+}
+.ramkadokolumny{
+	font-size:20px;
+	font-family:Arial;
+	margin: 10px;
+	border: 0.1px solid black;
+	font: 16px calibri;
+	letter-spacing: -1px;
+	padding: 5px 0 0 ;
+}
+.ramkadokolumny:hover {
+	background-color: silver;
+}
