@@ -57,6 +57,7 @@
  
 .icon-credit-card:before { content: '\e800';  font-size:54px; } /* '' */
 .icon-user:before { content: '\e801'; font-size:54px; } /* '' */
+.icon-lock-open:before { content: '\e804'; font-size:54px; } /* '' */
 .icon-home:before { content: '\e802'; font-size:54px; } /* '' */
 .icon-mail:before { content: '\e803'; font-size:72px; padding-bottom: 8%; padding-left: 35%; } /* '' */
 .icon-money:before { content: '\f0d6'; font-size:54px;} /* '' */
